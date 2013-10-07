@@ -1,0 +1,15 @@
+[user]
+	email = %USER_EMAIL% 
+	name = %USER_NAME%
+[core]
+	editor = vim
+[alias]
+	lo = log --graph --decorate --oneline --color --all -20
+	s = status
+	br = branch
+	dc = diff --color --word-diff
+	co = checkout
+	cm = commit
+	pr = pull --rebase
+[merge]
+	tool = vimdiff

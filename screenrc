@@ -1,0 +1,4 @@
+caption always "%{= kw}%-w%{= BW}%n %t%{-}%+w %-= %c"
+vbell off
+startup_message off
+shell -$SHELL
