@@ -16,11 +16,15 @@ install_git () {
     echo -e "${BLUE}Installing git${RESET}"
 
     USER_NAME=`git config --global user.name`
-    read -e -p "Your name: " -i "$USER_NAME" USER_NAME
+    if [ "$USER_NAME" = "" ]; then
+        read -e -p "Your name: " USER_NAME
+    fi
 
     USER_EMAIL=`git config --global user.email`
-    read -e -p "Your email: " -i "$USER_EMAIL" USER_EMAIL
-    
+    if [ "$USER_EMAIL" = "" ]; then
+        read -e -p "Your email: " USER_EMAIL
+    fi
+
     CONFIG=$HOME/.gitconfig
     cp gitconfig $CONFIG
     sed -i.bak s/%USER_NAME%/"$USER_NAME"/g $CONFIG

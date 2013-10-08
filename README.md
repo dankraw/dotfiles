@@ -13,5 +13,5 @@ The following configuration files are included:
 cd ~
 git clone https://github.com/dankraw/dotfiles.git .dotfiles
 cd .dotfiles
-bash ./install.sh
+./install.sh
 ```
