@@ -1,4 +1,4 @@
-" for safety reasons
+" safety reasons
 set nocompatible
 
 " syntax highlighting
@@ -24,9 +24,13 @@ set shiftwidth=4
 
 " line numbers on the left
 set number
+" colors
+hi LineNr ctermfg=7
 
 " always display status line
 set laststatus=2
+" colors
+hi StatusLine ctermfg=0 ctermbg=4
 
 " enable mouse
 set mouse=a
