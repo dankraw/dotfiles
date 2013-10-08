@@ -5,6 +5,7 @@ dotfiles
 The following configuration files are included:
 * git
 * screen
+* vim
 
 ## Installation
 

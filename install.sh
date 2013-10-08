@@ -34,9 +34,15 @@ install_screen () {
    ln -sf $DOTFILES/screenrc $HOME/.screenrc
 }
 
+install_vim () {
+   echo -e "${BLUE}Installing vim${RESET}"
+   ln -sf $DOTFILES/vimrc $HOME/.vimrc
+}
+
 install () {
    install_git
    install_screen 
+   install_vim
    echo -e "${GREEN}Done${RESET}"
 }
 
