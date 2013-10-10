@@ -25,12 +25,12 @@ set shiftwidth=4
 " line numbers on the left
 set number
 " colors
-hi LineNr ctermfg=7
+hi LineNr ctermfg=2
 
 " always display status line
 set laststatus=2
 " colors
-hi StatusLine ctermfg=0 ctermbg=4
+hi StatusLine ctermfg=0 ctermbg=2
 
 " enable mouse
 set mouse=a
