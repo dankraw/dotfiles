@@ -3,6 +3,8 @@ set nocompatible
 
 " syntax highlighting
 syntax on
+" json syntax
+autocmd BufNewFile,BufRead *.json set ft=javascript
 
 " better command-line completion
 set wildmenu
