@@ -11,5 +11,7 @@
 	co = checkout
 	cm = commit
 	pr = pull --rebase
+	st = stash
+	stp = stash pop
 [merge]
 	tool = vimdiff
