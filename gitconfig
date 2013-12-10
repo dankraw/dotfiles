@@ -5,7 +5,7 @@
 	editor = vim
 [alias]
 	lo = log --graph --decorate --oneline --color --all -20
-        loo = log --graph --pretty=format:'%C(yellow)%h%d%C(reset) %s (%C(green)%cN%C(reset), %C(yellow)%cr%C(reset))'
+        loo = log --graph --pretty=format:'%C(yellow)%h%C(red)%d%C(reset) %s (%C(green)%cN%C(reset), %C(cyan)%cr%C(reset))'
 	s = status
 	br = branch
 	dc = diff --color --word-diff
