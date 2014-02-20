@@ -4,7 +4,8 @@
 [core]
 	editor = vim
 [alias]
-	lo = log --graph --decorate --oneline --color --all -20
+	lo = log --graph --decorate --oneline --color -40
+	loa = log --graph --decorate --oneline --color --all -40
         loo = log --graph --pretty=format:'%C(yellow)%h%C(red)%d%C(reset) %s (%C(green)%cN%C(reset), %C(cyan)%cr%C(reset))' -20
 	s = status
         showc = show --color
@@ -12,6 +13,7 @@
 	dc = diff --color --word-diff
 	co = checkout
 	cm = commit
+        cmm = commit -m
 	pr = pull --rebase
 	st = stash
 	stp = stash pop
