@@ -19,3 +19,5 @@
 	stp = stash pop
 [merge]
 	tool = vimdiff
+[push]
+        default = current
