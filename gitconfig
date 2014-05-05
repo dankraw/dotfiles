@@ -4,9 +4,9 @@
 [core]
 	editor = vim
 [alias]
-	lo = log --graph --decorate --oneline --color -50
-	loa = log --graph --decorate --oneline --color --all -50
-        loo = log --graph --pretty=format:'%C(yellow)%h%C(red)%d%C(reset) %s (%C(green)%cN%C(reset), %C(cyan)%cr%C(reset))' -50
+	lo = log --graph --decorate --oneline --color
+	loa = log --graph --decorate --oneline --color --all
+        loo = log --graph --pretty=format:'%C(yellow)%h%C(red)%d%C(reset) %s (%C(green)%cN%C(reset), %C(cyan)%cr%C(reset))'
 	s = status
         showc = show --color
 	br = branch
