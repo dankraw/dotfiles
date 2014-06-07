@@ -34,19 +34,25 @@ install_git () {
 }
 
 install_screen () {
-   echo -e "${BLUE}Installing screen${RESET}"
-   ln -sf $DOTFILES/screenrc $HOME/.screenrc
+    echo -e "${BLUE}Installing screen${RESET}"
+    ln -sf $DOTFILES/screenrc $HOME/.screenrc
 }
 
 install_vim () {
-   echo -e "${BLUE}Installing vim${RESET}"
-   ln -sf $DOTFILES/vimrc $HOME/.vimrc
+    echo -e "${BLUE}Installing vim${RESET}"
+    ln -sf $DOTFILES/vimrc $HOME/.vimrc
+}
+
+install_zsh () {
+    echo -e "${BLUE}Installing zsh${RESET}"
+    ln -sf $DOTFILES/zshrc $HOME/.zshrc
 }
 
 install () {
    install_git
    install_screen 
    install_vim
+   install_zsh
    echo -e "${GREEN}Done${RESET}"
 }
 
