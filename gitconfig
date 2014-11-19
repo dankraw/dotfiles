@@ -17,6 +17,9 @@
 	pr = pull --rebase
 	st = stash
 	stp = stash pop
+        ignore = update-index --assume-unchanged
+        unignore = update-index --no-assume-unchanged
+        ignored = !git ls-files -v | grep "^[[:lower:]]"
 [merge]
 	tool = vimdiff
 [push]
