@@ -18,6 +18,7 @@ set smartcase
 
 " keep the same indent as the current line
 set autoindent
+filetype plugin indent on
 
 " indentation - spaces instead of tabs
 set expandtab
@@ -39,3 +40,4 @@ set mouse=a
 
 " backspace
 set backspace=indent,eol,start
+
