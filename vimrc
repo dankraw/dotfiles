@@ -1,3 +1,5 @@
+execute pathogen#infect()
+
 " safety reasons
 set nocompatible
 
