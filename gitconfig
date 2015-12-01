@@ -12,6 +12,7 @@
 	br = branch
 	dc = diff --color --word-diff
 	co = checkout
+        addp = add --patch
 	cm = commit
         cmm = commit -m
 	pr = pull --rebase
