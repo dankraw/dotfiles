@@ -15,6 +15,7 @@
         addp = add --patch
 	cm = commit
         cmm = commit -m
+        save = commit --amend --no-edit
 	pr = pull --rebase
 	st = stash
 	stp = stash pop
