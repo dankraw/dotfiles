@@ -11,6 +11,7 @@
         showc = show --color
 	br = branch
 	dc = diff --color --word-diff
+        dcc = diff --color --word-diff --cached
 	co = checkout
         addp = add --patch
 	cm = commit
