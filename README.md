@@ -6,7 +6,6 @@ The following configuration files are included:
 * git
 * screen
 * vim
-* zsh (oh-my-zsh)
 
 ## Installation
 

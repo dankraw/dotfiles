@@ -43,16 +43,10 @@ install_vim () {
     ln -sf $DOTFILES/vimrc $HOME/.vimrc
 }
 
-install_zsh () {
-    echo -e "${BLUE}Installing zsh${RESET}"
-    ln -sf $DOTFILES/zshrc $HOME/.zshrc
-}
-
 install () {
    install_git
    install_screen 
    install_vim
-   install_zsh
    echo -e "${GREEN}Done${RESET}"
 }
 
