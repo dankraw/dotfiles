@@ -33,6 +33,12 @@ install_git () {
     rm "${CONFIG}.bak"
 }
 
+install_git_templates() {
+    echo -e "${BLUE}Installing git templates${RESET}"
+    ln -sf $DOTFILES/git-templates $HOME/.git-templates
+    git config --global init.templatedir $HOME/.git-templates
+}
+
 install_screen () {
     echo -e "${BLUE}Installing screen${RESET}"
     ln -sf $DOTFILES/screenrc $HOME/.screenrc
@@ -45,6 +51,7 @@ install_vim () {
 
 install () {
    install_git
+   install_git_templates
    install_screen 
    install_vim
    echo -e "${GREEN}Done${RESET}"
