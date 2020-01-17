@@ -1,17 +1,12 @@
 dotfiles
 ========
-## Package
-
-The following configuration files are included:
-* git
-* screen
-* vim
 
 ## Installation
 
 ```sh
 cd ~
-git clone https://github.com/dankraw/dotfiles.git .dotfiles
-cd .dotfiles
-./install.sh
+git clone https://github.com/dankraw/dotfiles.git
+cd dotfiles
+./install_dotfiles.sh
+./install_macos.sh
 ```
