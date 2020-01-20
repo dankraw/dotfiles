@@ -1,5 +1,6 @@
 # JDK
 tap "AdoptOpenJDK/openjdk"
+cask "adoptopenjdk8"
 cask "adoptopenjdk11"
 
 brew "jq"
