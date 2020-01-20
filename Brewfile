@@ -10,6 +10,7 @@ brew "mpw" # masterpassword
 brew "fish" # fish shell
 cask "iterm2"
 
+brew "gradle"
 cask "intellij-idea"
 
 tap "dankraw/ssh-aliases"
