@@ -4,6 +4,7 @@ cask "adoptopenjdk8"
 cask "adoptopenjdk11"
 
 brew "jq"
+brew "pwgen"
 brew "go"
 
 brew "mpw" # masterpassword
