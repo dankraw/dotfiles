@@ -14,6 +14,7 @@ cask "iterm2"
 
 brew "gradle"
 cask "intellij-idea"
+cask "visual-studio-code"
 
 tap "dankraw/ssh-aliases"
 brew "ssh-aliases"
