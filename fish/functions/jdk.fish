@@ -2,7 +2,6 @@ function jdk
     set -x JAVA_HOME_PARENT /Library/Java/JavaVirtualMachines
     set -x versions (ls "$JAVA_HOME_PARENT")
     if set -q argv[1]
-        echo "$argv[1]"
         for v in $versions
             switch $v
             case "*$argv[1]*"

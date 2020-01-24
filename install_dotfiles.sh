@@ -67,12 +67,18 @@ install_bash () {
     link_file "$DOTFILES"/bashrc "$HOME"/.bashrc
 }
 
+install_fish_functions () {
+    mkdir -p "$HOME"/.config/fish/functions
+    cp fish/functions/*.fish "$HOME"/.config/fish/functions
+}
+
 install () {
    install_git
    install_git_templates
    install_screen
    install_vim
    install_bash
+   install_fish_functions
 }
 
 install
