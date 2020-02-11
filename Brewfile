@@ -9,6 +9,7 @@ brew "go"
 brew "httpie"
 
 brew "mpw" # masterpassword
+cask "spotify"
 
 brew "fish" # fish shell
 cask "iterm2"
