@@ -3,6 +3,7 @@ tap "AdoptOpenJDK/openjdk"
 cask "adoptopenjdk8"
 cask "adoptopenjdk11"
 
+brew "leiningen"
 brew "jq"
 brew "pwgen"
 brew "go"
