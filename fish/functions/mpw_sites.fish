@@ -5,9 +5,10 @@ function mpw_sites
     set -l blue (set_color -o blue)
     set -l green (set_color -o green)
     set -l normal (set_color normal)
-    cat $HOME/.mpw.d/$MPW_FULLNAME.mpsites.json | jq  -r '.sites | keys[] as $k |  "\($k) \t counter=\(.[$k].counter) type=\(.[$k].type)"' | 
+    cat $HOME/.mpw.d/$MPW_FULLNAME.mpsites.json | jq  -r '.sites | keys[] as $k |  "\($k) counter=\(.[$k].counter) type=\(.[$k].type)"' | 
         sed "s/counter=/$yellow/" | 
         sed "s/type=16/$red x$normal/" |
+        sed "s/type=17/$blue l$normal/" |
         sed "s/type=20/$green b$normal/" 
 
    
